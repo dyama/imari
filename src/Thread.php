@@ -2,6 +2,8 @@
 
 include_once "Post.php";
 
+# --------------------
+# スレッド クラス
 class Thread
 {
   public $date = 0;
@@ -14,6 +16,7 @@ class Thread
   public $id = 0;
   public $errmsg = '';
 
+  # スレッドファイルを読み込み自身に内容を設定する
   public function load($file)
   {
     $fp = fopen($file, 'r');
@@ -50,6 +53,7 @@ class Thread
     return true;
   }
 
+  # 自身の内容をスレッドファイルに書き出す
   public function save($file = null)
   {
     if (!$file) {
@@ -73,6 +77,7 @@ class Thread
     return true;
   }
 
+  # スレッドの末尾に投稿を追加する
   public function add($date, $userid, $files, $text)
   {
     if (!Post::valid_text($text)) {
@@ -93,6 +98,7 @@ class Thread
     return true;
   }
 
+  # このスレッド内に最初に現れる添付画像ファイル名を取得する
   private function get_image()
   {
     foreach ($this->posts as $post) {
@@ -108,6 +114,7 @@ class Thread
     return null;
   }
 
+  # 添付ファイル数の合計を返す
   private function nb_attached()
   {
     $res = 0;

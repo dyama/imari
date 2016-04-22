@@ -1,0 +1,5 @@
+*~
+src/archive/*.txt
+src/s/*.*
+!src/s/index.html
+

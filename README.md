@@ -1,4 +1,5 @@
 # imari
+
 Simple PHP forum system with NO-DB.
 
 **イマリ**は、データベースを必要としないシンプルな PHP 製フォーラムシステムです。
@@ -12,27 +13,26 @@ Simple PHP forum system with NO-DB.
 * スレッド内画像の展開表示
 * メンバーの閲覧、リスト表示
 
-PHP の練習がてら、試しに書いてみたものです。
+そんなに多機能ではありませんが、複雑でもないためカスタマイズは簡単だと思います。
 自己責任にてお使いください。
 
 ## Screenshots
 
 ### スレッドリスト
 
-http://dyama.org/res/imari-threadlist.jpg
+![thread list](http://dyama.org/res/imari-threadlist.jpg)
 
 ### スレッドビュー
 
-http://dyama.org/res/imari-threadview.jpg
+![thread view](http://dyama.org/res/imari-threadview.jpg)
 
 ### メンバーリスト
 
-http://dyama.org/res/imari-memberlist.jpg
+![member list](http://dyama.org/res/imari-memberlist.jpg)
 
 ### 設定
 
-http://dyama.org/res/imari-config.jpg
-
+![config](http://dyama.org/res/imari-config.jpg)
 
 ## License
 

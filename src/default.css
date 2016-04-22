@@ -1,0 +1,85 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+hr {
+  border: 1px solid darkorange;
+}
+.rep {
+   border: none;
+   margin: 5px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: white;
+}
+.username {
+   color: black;
+   font-weight: bold;
+}
+.timestamp {
+   color: gray;
+   margin-bottom: 10px;
+}
+.msgbody {
+   margin-left: 20px;
+}
+.notice {
+  font-size: 60%;
+}
+body {
+  margin: 0px;
+  background-color: floralwhite;
+}
+.main {
+  margin: 0px;
+  padding: 15px;
+}
+.menubar {
+  width:100%;
+  height: auto;
+  color: black;
+  background-color: peachpuff;
+  padding: 5px 5px 5px 10px;
+  margin: 0px 0px 0px 0px;
+  vertical-align: middle;
+}
+.menubar a:visited {
+  color: black;
+}
+.menubar .user img {
+  width: 32px;
+  height: 32px;
+}
+form {
+   /* border: 2px solid green; */
+   border: none;
+   margin: 5px;
+   padding: 10px;
+   margin-top: 15px;
+   border-radius: 5px;
+   background-color: papayawhip;
+}
+textarea, input, button, .member {
+   border: 1px solid sienna;
+   background-color: white;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 5px;
+}
+input:hover, button:hover {
+  background-color: lavenderblush;
+}
+.disableitem {
+  color: gray;
+}
+.threadimage {
+   border: none;
+   margin: 0px;
+   margin-right: 10px;
+   padding: 0px;
+   border-radius: 5px;
+   background-color: white;
+}
